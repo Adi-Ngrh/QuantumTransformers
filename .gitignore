@@ -6,6 +6,8 @@ __pycache__/
 *.egg-info/
 wandb/
 venv/
+.env/
+.python-version
 nohup.out
 imdb-data/
 dataset-downloader.py
