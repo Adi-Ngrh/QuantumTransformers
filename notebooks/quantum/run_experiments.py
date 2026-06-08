@@ -46,27 +46,27 @@ DATA_PATHS = {
         'tokenizer': 'wordlevel',
         'vocab': 115, 
         'shared_files': None
-    },
-    'imdb': {
-        'type': 'sentiment',
-        'files': ['data/imdb_labelled.txt'],
-        'tokenizer': 'bpe',
-        'vocab': 1000,
-        'shared_files': True
-    },
-    'amazon': {
-        'type': 'sentiment',
-        'files': ['data/amazon_cells_labelled.txt'],
-        'tokenizer': 'bpe',
-        'vocab': 1000,
-        'shared_files': True
-    },
-    'yelp': {
-        'type': 'sentiment',
-        'files': ['data/yelp_labelled.txt'],
-        'tokenizer': 'bpe',
-        'vocab': 1000,
-        'shared_files': True
+    # },
+    # 'imdb': {
+    #     'type': 'sentiment',
+    #     'files': ['data/imdb_labelled.txt'],
+    #     'tokenizer': 'bpe',
+    #     'vocab': 1000,
+    #     'shared_files': True
+    # },
+    # 'amazon': {
+    #     'type': 'sentiment',
+    #     'files': ['data/amazon_cells_labelled.txt'],
+    #     'tokenizer': 'bpe',
+    #     'vocab': 1000,
+    #     'shared_files': True
+    # },
+    # 'yelp': {
+    #     'type': 'sentiment',
+    #     'files': ['data/yelp_labelled.txt'],
+    #     'tokenizer': 'bpe',
+    #     'vocab': 1000,
+    #     'shared_files': True
     }
 }
 
